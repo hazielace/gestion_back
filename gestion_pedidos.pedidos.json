@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "66b8fb73f839191e2f278be3"
+  },
+  "idcliente": "2",
+  "productos": [
+    {
+      "_id": 4,
+      "nombre": "Samsung TV",
+      "descripcion": "televisores",
+      "precio": 2000,
+      "cantidad": 1
+    },
+    {
+      "_id": 5,
+      "nombre": "LG TV",
+      "descripcion": "televisores",
+      "precio": 1800,
+      "cantidad": 1
+    }
+  ],
+  "total": 3800,
+  "fecha_registro": {
+    "$date": "2024-08-11T17:57:07.188Z"
+  },
+  "_class": "com.ecomerce.model.Pedido"
+},
+{
+  "_id": {
+    "$oid": "66b8feedac9bae142952ea3c"
+  },
+  "idcliente": "1",
+  "productos": [
+    {
+      "_id": 4,
+      "nombre": "Samsung TV",
+      "descripcion": "televisores",
+      "precio": 2000,
+      "cantidad": 1
+    }
+  ],
+  "total": 2000,
+  "fecha_registro": {
+    "$date": "2024-08-11T18:11:57.154Z"
+  },
+  "_class": "com.ecomerce.model.Pedido"
+}]
